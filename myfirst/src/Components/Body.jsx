@@ -65,7 +65,7 @@ const Body = ({formData,setFormData}) => {
                             onChange={handleInputChange}
                         >
                             <option value="electronics">electronics</option>
-                            <option value="jewelry">jewelry</option>
+                            <option value="jewelery">jewelery</option>
                             <option value="men's clothing">men's clothing</option>
                             <option value="women's clothing">women's clothing</option>
                         </Select>

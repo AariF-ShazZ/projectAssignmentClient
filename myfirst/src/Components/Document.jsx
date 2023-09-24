@@ -3,37 +3,37 @@ import React from 'react'
 
 const Document = () => {
   const fetchCode1 = `
-  fetch('https://fakestoreapi.com/products')
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product')
     .then(res => res.json())
     .then(json => console.log(json))
 `;
   const fetchCode2 = `
-  fetch('https://fakestoreapi.com/products/1')
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/650fcf5b3a4b72db30cfb054')
   .then(res=>res.json())
   .then(json=>console.log(json))
 `;
   const fetchCode3 = `
-  fetch('https://fakestoreapi.com/products?limit=5')
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product?limit=5')
   .then(res=>res.json())
   .then(json=>console.log(json))
 `;
   const fetchCode4 = `
-  fetch('https://fakestoreapi.com/products?sort=desc')
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product?sort=desc')
             .then(res=>res.json())
             .then(json=>console.log(json))
 `;
   const fetchCode5 = `
-  fetch('https://fakestoreapi.com/products/categories')
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/categories')
   .then(res=>res.json())
   .then(json=>console.log(json))
 `;
   const fetchCode6 = `
-  fetch('https://fakestoreapi.com/products?category=jewelery')
+  fetch('hhttps://jungle-green-drill-hem.cyclic.cloud/product?category=jewelery')
   .then(res=>res.json())
   .then(json=>console.log(json))
 `;
   const fetchCode7 = `
-  fetch('https://fakestoreapi.com/products/post',{
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/post',{
     method:"POST",
   body:JSON.stringify(
   {
@@ -49,7 +49,7 @@ const Document = () => {
   .then(json=>console.log(json))
 `;
   const fetchCode8 = `
-  fetch('https://fakestoreapi.com/products/7',{
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/update/651077d79c7891dfd36c5e89',{
     method:"PUT",
   body:JSON.stringify(
   {
@@ -65,7 +65,7 @@ const Document = () => {
   .then(json=>console.log(json))
 `;
   const fetchCode9 = `
-  fetch('https://fakestoreapi.com/products/7',{
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/update/651077d79c7891dfd36c5e89',{
               method:"PATCH",
             body:JSON.stringify(
             {
@@ -81,7 +81,7 @@ const Document = () => {
             .then(json=>console.log(json))
 `;
   const fetchCode10 = `
-  fetch('https://fakestoreapi.com/products/6',{
+  fetch('https://jungle-green-drill-hem.cyclic.cloud/product/delete/651077d79c7891dfd36c5e89',{
               method:"DELETE"
         })
             .then(res=>res.json())
